@@ -1,11 +1,11 @@
-About r-clusterrepro
-====================
+About r-clusterrepro-feedstock
+==============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-clusterrepro-feedstock/blob/main/LICENSE.txt)
 
 Home: https://www.ncbi.nlm.nih.gov/pubmed/16613834.
 
 Package license: GPL-2.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-clusterrepro-feedstock/blob/main/LICENSE.txt)
 
 Summary: This is a function for validating microarray clusters via reproducibility, based on the paper referenced below.
 
