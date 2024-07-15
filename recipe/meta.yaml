@@ -1,6 +1,5 @@
 {% set version = '0.9' %}
 {% set posix = 'm2-' if win else '' %}
-{% set native = 'm2w64-' if win else '' %}
 
 package:
   name: r-clusterrepro
@@ -13,8 +12,7 @@ source:
   sha256: 940d84529ff429b315cf4ad25700f93e1156ccacee7b6c38e4bdfbe2d4c6f868
 
 build:
-  merge_build_host: True  # [win]
-  number: 2
+  number: 3
   noarch: generic
   rpaths:
     - lib/R/lib/
